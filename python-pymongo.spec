@@ -1,7 +1,7 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        1.9
+Version:        1.10.1
 Release:        %mkrel 1
 Summary:        Python driver for MongoDB
 Group:          Development/Python
