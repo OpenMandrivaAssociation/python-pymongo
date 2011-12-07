@@ -1,12 +1,12 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        2.0.1
+Version:        2.1
 Release:        %mkrel 1
 Summary:        Python driver for MongoDB
 Group:          Development/Python
 License:        Apache License
-URL:            http://api.mongodb.org/python/2.0.1/
+URL:            http://api.mongodb.org/python/2.1/
 Source0:        http://pypi.python.org/packages/source/p/pymongo/%{shortname}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  python-setuptools
