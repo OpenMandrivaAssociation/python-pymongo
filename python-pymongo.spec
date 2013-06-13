@@ -1,13 +1,13 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        2.2
+Version:        2.5
 Release:        1
 Summary:        Python driver for MongoDB
 Group:          Development/Python
 License:        Apache License
 URL:            http://api.mongodb.org/python/2.1/
-Source0:        http://pypi.python.org/packages/source/p/pymongo/%{shortname}-%{version}.tar.gz
+Source0:        http://pypi.python.org/packages/source/p/pymongo/pymongo-%{version}.tar.gz
 BuildRequires:  python-setuptools
 %py_requires -d
 
@@ -63,4 +63,5 @@ This driver is build without the C extensions.
 * Wed Dec 08 2010 Wiliam Alves de Souza <wiliam@mandriva.com> 1.9-1mdv2011.0
 + Revision: 616254
 - import python-pymongo
+
 
