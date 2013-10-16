@@ -1,7 +1,7 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        2.5
+Version:        2.5.2
 Release:        1
 Summary:        Python driver for MongoDB
 Group:          Development/Python
@@ -63,5 +63,6 @@ This driver is build without the C extensions.
 * Wed Dec 08 2010 Wiliam Alves de Souza <wiliam@mandriva.com> 1.9-1mdv2011.0
 + Revision: 616254
 - import python-pymongo
+
 
 
