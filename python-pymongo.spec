@@ -1,9 +1,10 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        2.5.2
+Version:        2.7
 Release:        1
 Summary:        Python driver for MongoDB
+
 Group:          Development/Python
 License:        Apache License
 URL:            http://api.mongodb.org/python/2.1/
@@ -26,11 +27,12 @@ This driver is build without the C extensions.
 %setup -q -n %{shortname}-%{version}
 
 %build
-%{__python} setup.py --no_ext build
+python setup.py --no_ext build
 
 %install
-%{__python} setup.py --no_ext install -O1 --skip-build --root %{buildroot} --install-purelib=%py_platsitedir
+python setup.py --no_ext install -O1 --skip-build --root %{buildroot} --install-purelib=%{py_platsitedir}
 
 %files
 %{py_platsitedir}/*
+
 
