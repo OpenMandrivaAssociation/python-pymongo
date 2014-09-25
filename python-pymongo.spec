@@ -1,7 +1,7 @@
 %define shortname    pymongo
 
 Name:           python-%{shortname}
-Version:        2.7.1
+Version:        2.7.2
 Release:        1
 Summary:        Python driver for MongoDB
 
