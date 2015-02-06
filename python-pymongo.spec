@@ -2,7 +2,7 @@
 
 Name:           python-%{shortname}
 Version:        2.7.2
-Release:        1
+Release:        2
 Summary:        Python driver for MongoDB
 
 
