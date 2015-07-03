@@ -3,6 +3,7 @@ removed_sources:
   pymongo-2.5.2.tar.gz: e922008d49acde0e1d2ad999b1bde95b97287f9e
   pymongo-2.5.tar.gz: b93097e867d1b4b07a9f8bc37dc6d7ddd529a343
   pymongo-2.7.1.tar.gz: f2c716a1773cd56c1583df5ba98369fa379c7522
+  pymongo-2.7.2.tar.gz: 17c616a74a385e4766fc9d7234a49a01c6689388
   pymongo-2.7.tar.gz: be1b9becbb39e5a2a382686056fd0d09334aea83
 sources:
-  pymongo-2.7.2.tar.gz: 17c616a74a385e4766fc9d7234a49a01c6689388
+  pymongo-3.0.3.tar.gz: 3de18d6c0d7f9e3d5671908cd28faca45b3f9899
