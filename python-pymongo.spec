@@ -8,7 +8,7 @@ Summary:        Python driver for MongoDB
 
 Group:          Development/Python
 License:        Apache License
-URL:            http://api.mongodb.org/python/2.1/
+URL:            https://api.mongodb.org/python/2.1/
 Source0:	https://files.pythonhosted.org/packages/source/p/pymongo/pymongo-%{version}.tar.gz
 BuildRequires:  python-setuptools
 BuildRequires:  python-devel
