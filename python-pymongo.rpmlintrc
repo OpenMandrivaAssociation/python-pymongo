@@ -1,0 +1,2 @@
+# python-bson sub package provides these
+addFilter("W: devel-file-in-non-devel-package ")
